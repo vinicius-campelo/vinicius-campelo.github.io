@@ -560,7 +560,17 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <p class="footer">
+      <p style="text-align: center;">&copy; Brasília - DF  <span id="dData"></span>
+        <script>
+          const months = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
 
+
+          document.getElementById("dData").innerHTML = new Date().getDate() + " de " + months[new Date().getMonth()] + " de " +  new Date().getFullYear();
+
+
+        </script><br /> <a href="https://wa.me/5561998035237?text=Olá" target="_blank"><img src="img/icone-whatsapp.png"> WhatsApp</a> Tel.: <a href="tel:61998035237"> +55 61 99803-5237</a>. E-mail: <a href="mailto:campelovinicius@aim.com?Subject=Contato vinicius campelo" target="_top">campelovinicius@aim.com</a></p>
+     </p>
   </body>
 
 </html>
